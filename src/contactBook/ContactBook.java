@@ -112,8 +112,7 @@ public class ContactBook {
     }
 
     public Contact oldestPhone(int phone) {
-
-        for( Contact c : contacts){
+        for(Contact c : contacts){
             if (c.getPhone() == phone) return c;
         }
         return null;
