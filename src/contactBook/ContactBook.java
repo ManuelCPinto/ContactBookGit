@@ -119,6 +119,7 @@ public class ContactBook {
         return null;
     }
 
+    //To be used on the check multi phone on main
     public boolean multiPhone(int phone) {
         for( int a = 0; a < counter; a++){
             Contact c = contacts[a];

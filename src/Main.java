@@ -130,7 +130,7 @@ public class Main {
         phone = in.nextInt(); in.nextLine();
         if (cBook.hasPhone(phone)) {
                 Contact c = cBook.oldestPhone(phone);
-                System.out.println(c.getName());// + "; " + c.getEmail() + "; " + c.getPhone());
+                System.out.println(c.getName());
         } 
         else System.out.println(PHONE_NOT_EXIST);
     }
